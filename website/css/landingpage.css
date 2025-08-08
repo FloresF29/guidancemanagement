@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(217, 121, 25, 0.3);
+    font-family: 'Abhaya Libre', serif; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #800000;
+    display: flex;
+    padding: 15px 40px;  
+}
+
+.headerlogo img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headertext h4 {
+    color: white;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.2;
+    text-align: left;
+    margin-right: 1198px;
+}
+
+.header .title2 {
+    margin-top: 5px;
+}
