@@ -112,3 +112,172 @@ body {
     height: 26px;
     background-color: #C40410;
 }
+
+.content img{
+    width: 620px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 98px;
+}
+
+.text-content{
+    margin-left: 800px ;
+    margin-top: -505px;
+}
+
+.text-content h4{
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font: outfit;
+    font-weight: medium;
+    font-size: 22px;
+    font-family: outfit, sans-serif;
+}
+
+.text-content h1{
+    font-size: 56px;
+    margin-top: 10px;
+    font-weight: extrabold;
+}
+
+.text-content span{
+    color: #FC0212;
+}
+
+.description {
+    margin-top: 25px;
+}
+
+.text-content p{
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: medium;
+}
+.stats-container {
+  display: flex;
+  width: 550px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: -10px;
+  justify-content: space-around;
+  background-color: #f8e5d7;
+  border: 1px solid #c5a992;
+  border-radius: 10px;
+  padding: 20px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stat {
+  text-align: left;
+  margin: 0 20px;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #444;
+  margin-top: 5px;
+}
+
+.About h1{
+    font-size: 64px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+}
+
+.about-description{
+    margin-top: 20px;
+}
+
+.About p{
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.About{
+    margin-left: 100px;
+    margin-top: 85px;
+
+}
+
+.about-buttons{
+    margin-top: 30px ;
+}
+
+.about-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.about-btn:focus {
+  outline: none;
+}
+
+.about-btn:hover {
+  opacity: 0.9;
+}
+
+.About img{
+    width: 1350px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: -20px;
+}
+
+
+.mission-vision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.mission-vision-container {
+  background-color: #f8e5d7;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+.mission-vision-container h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  margin: 0;
+  text-align: center;
+}
+
+
+.mission-vision-description {
+  text-align: center;
+  max-width: 700px;
+  color: #333;
+  line-height: 1.8;
+  padding: 0 20px;
+}
+
+
+
+
+
+
+
+
