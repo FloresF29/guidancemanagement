@@ -460,7 +460,253 @@ body {
     }
 
    
-   
+   .History-timeline {
+      background-color: #C40410;
+      margin-left: 300px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      width: 900px;
+      height: 1000px;
+      padding: 40px 20px 30px 20px;
+      border-radius: 12px;
+      position: relative;
+      box-shadow: 4px 6px 0px 0px black;
+      font-family: 'Outfit', sans-serif;
+  }
+
+  .History-timeline .History-timeline-year{
+      background-color: white;
+      width: 250px;
+      height: 90px;
+      margin-left:50px ;
+      margin-top: 50px;
+      box-shadow: 4px 6px 0px 0px black;
+  }
+  .History-timeline img {
+      width: 60px;
+      height: 60px;
+      margin-top: 15px;
+      margin-left: 30px;
+  }
+
+    .History-timeline h2{
+      font-size: 50px;
+      font-weight: bold;
+      font-family: raleway;
+      color: #000;
+      margin-top: -65px ;
+      margin-left: 50px;
+      text-align: center;   
+    }
+
+  
+
+ .History-timeline-event{
+  color: white;
+  margin-left: 350px;
+  margin-top: -120px;
+ }
+
+ .History-timeline-event h3 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: raleway, sans-serif;
+  margin-bottom: 20px;
+ }
+
+ .History-timeline-event p {
+  font-size: 18px;
+  font-weight: medium;
+  font-family: Outfit, sans-serif;
+  margin-bottom: 100px;
+  line-height: 1.5;
+ }
+
+
+.Principal {
+  width: 500px;
+  height: 630px;
+  background-color: #880e0e; /* deep red */
+  border-radius: 15px;
+  padding: 20px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Principal img {
+  width: 400px;
+  height: 480px;
+  margin-left: 12px;
+  margin-top: 15px;
+}
+
+
+
+.principal-content {
+  background-color: #a55e5e; /* muted red box */
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+
+.principal-name h1 {
+  font-size: 30px;
+  font: rambla, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+  margin: 0;
+}
+
+
+.principal-name h4 {
+  font-size: 14px;
+  color: #ffee58; 
+  font-size: 25px;
+  font: rambla, sans-serif;
+  text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+  margin: 5px 0 0 0;
+}
+
+
+ .our-Teachers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: 'Inter', sans-serif;
+    }
+
+
+    .our-Teachers-container {
+    background-color: rgba(245, 205, 4, 0.33);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    }
+
+    .our-Teachers-header {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-family: raleway, sans-serif;
+    }
+
+
+    .our-Teachers-container h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin: 0;
+    text-align: center;
+    }
+
+
+    .our-Teachers-description {
+    text-align: center;
+    max-width: 800px;
+    color: #333;
+    line-height: 1.8;
+    padding: 0 20px;
+    }
+
+
+
+      .Teachers-container-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 40px;
+    }
+
+
+
+    .Departments {
+      background-color: #F5CD04;
+      width: 460px;
+      height: 350px;
+      border-radius: 12px;
+      position: relative;
+      box-shadow: 4px 6px 0px 0px black;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .Departments h1 {
+      font-size: 30px;
+      font-family: raleway, sans-serif;
+      font-weight: bold;
+      text-align: center;
+      line-height: 2.5;
+      color: #000;
+    }
+    .Departments img{
+      width: 350px;
+      height: 20px;
+      margin-top: -40px;
+      margin-left: 50px;
+    }
+    .Departments p {
+      font-size: 14px;
+      font-family: raleway, sans-serif;
+      font-weight: medium;
+      text-align: center;
+      line-height: 2;
+      margin-top: 30px;
+      color: #000;
+    }
+
+ .Dept-btn {
+    background-color: #C40410;
+    margin-top: 50px;
+    color: white;
+    border: none;
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 30px;
+    box-shadow: 0 2px 8px white;
+}
+
+.Dept-btn:hover {
+    scale: 1.10;
+}
+
+.Faculty-Team{
+  background-color: #800000;
+  width: 1000px;
+  height: 600px;
+  margin-bottom: 100px;
+  margin-left: 250px;
+}
+
+.Faculty-Team img{
+  width: 900px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+  
+
+
 
 
 .footer {
